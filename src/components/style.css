@@ -4,18 +4,15 @@
     }
     
                 /***********NAVBAR***************/
-i{
-  color: #E31B6D;
-}
 nav{
     color: white;
-    /* background-color: #1B242F; */
     position: fixed;
     z-index: 99;
     width: 100%;
 }
 
 nav div ul{
+  border-bottom: #04C2C9 solid 3px;
     overflow: hidden;
     background-color: black;
 }
@@ -39,10 +36,11 @@ nav div ul li{
   }
   
   .icon {
+    color: #E31B6D;
     display: none;
     border: none;
     font-size: 30px;
-    background-color: black;
+    background-color: none;
   }
   
         /*************HOME*******************/
@@ -88,11 +86,6 @@ nav div ul li{
     margin: 20px auto;
 }
 
-/* .skill span{
-    right: 15px;
-
-position: absolute;
-} */
 .skill-percentage{
       background-color: #00A1A7;
       position: absolute;
@@ -106,31 +99,15 @@ position: absolute;
     padding-left: 15px 
 }
 
-@media screen and (max-width: 600px) {
-    /* .nav-item a {display: none;} */
-    .icon {
-      float: right;
-      display: block;
-    }
-
-    .nav-items .nav-item {display: none;}
-    .nav-items.responsive {position: relative;}
-    .nav-items.responsive .icon {
-        position: absolute;
-        right: 0;
-        top: 0;
-    }
-    .nav-items.responsive .nav-item{
-        float: none;
-        display: block;
-        text-align: left;
-    }
-  }
-
-
   /************PORTFOLIO*************/
   .Portfolio{
     background-color: #F5F5F5;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .Portfolio h1{
+    text-align: center;
   }
   .container {
     overflow: hidden;
@@ -143,12 +120,10 @@ position: absolute;
   .filterDiv {
     float: left;
     padding: 0;
-    /* background-color: #2196F3; */
     color: #ffffff;
     width: 100px;
     line-height: 100px;
     text-align: center;
-    /* margin: 2px; */
     display: none; /* Hidden by default */
   }
   
@@ -170,7 +145,6 @@ position: absolute;
     outline: none;
     margin: 2px;
     padding: 12px 16px;
-    /* background-color: #f1f1f1; */
     cursor: pointer;
   }
   
@@ -180,10 +154,6 @@ position: absolute;
   }
   
   /* Add a dark background to the active button */
-  /* .btn.active {
-    background-color: #666;
-    color: white;
-  } */
 
   .box{
     position: relative;
@@ -278,6 +248,88 @@ position: absolute;
         transform: scale(1);
     }
 }
+
+
+/*************BLOG******************/
+
+.Blogs{
+  text-align: center;
+  margin-top: 50px;
+}
+
+.Blogs h1{
+  margin-bottom: 1em; 
+}
+
+.blog a{
+  color: black;
+  max-width: 300px;
+}
+
+.blog a:hover{
+  text-decoration: none;
+  color: #ccc;
+}
+
+.blog a p{
+  font-weight: lighter;
+}
+.article-img{
+  width: 270px;
+  height: 200px;
+}
+
+/*************CONTACT**********/
+.Contact{
+  background-color: #252934;
+  margin-top: 50px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: white;
+  text-align: center;
+}
+
+.icons{
+  display: flex;
+  justify-content: center;
+}
+
+.Contact a{
+  color: white;
+  padding-right: 20px;
+}
+
+.Contact a:hover{
+  color: #E31B6D;
+}
+
+.Contact a i{
+  font-size: 20px;
+  background-color: grey;
+  padding: 10px;
+}
+
+/****************MEDIA QUERIES******************/
+@media screen and (max-width: 600px) {
+  .icon {
+    float: right;
+    display: block;
+  }
+
+  .nav-items .nav-item {display: none;}
+  .nav-items.responsive {position: relative;}
+  .nav-items.responsive .icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+  }
+  .nav-items.responsive .nav-item{
+      float: none;
+      display: block;
+      text-align: left;
+  }
+}
+
 @media only screen and (max-width: 990px){
     .box{ margin-bottom: 20px; }
 }

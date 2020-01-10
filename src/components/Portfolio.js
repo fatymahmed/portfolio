@@ -40,6 +40,7 @@ function Portfolio(){
 
   return(
     <div id="portfolio" className="Portfolio">
+      <h1>Portfolio</h1>
       <div id="myBtnContainer">
         <button className="btn active" id="all" onClick={filterSelection}> ALL</button>
         <button className="btn" id="react" onClick={filterSelection}> REACT</button>
@@ -48,57 +49,57 @@ function Portfolio(){
         <button className="btn" id="html/css" onClick={filterSelection}> HTML/CSS</button>
       </div>
 
-        <div class="container">
-          <div class="row">
-            <div class="filterDiv show col-md-4 col-sm-6 col-12">
-              <div class="box">
+        <div className="container">
+          <div className="row">
+            <div className="filterDiv show col-md-4 col-sm-6 col-12">
+              <div className="box">
                 <img src={image} alt="comp"></img>
-                  <ul class="social-links">
+                  <ul className="social-links">
                     <li className="project-name"><h1>Facebook</h1></li>
                     <br/>
                     <li className='project-language'><h3>ruby/rails</h3></li>
                     <br/>
-                    <li><a href="#"><i class="fa fa-code" aria-hidden="true"></i></a></li>
-                    <li><a href="#"><i class="fa fa-desktop" aria-hidden="true"></i></a></li>
+                    <li><a href="#"><i className="fa fa-code" aria-hidden="true"></i></a></li>
+                    <li><a href="#"><i className="fa fa-desktop" aria-hidden="true"></i></a></li>
                   </ul>
               </div>
             </div>
-            <div class="filterDiv show ruby/rails react col-md-4 col-sm-6 col-12">
-              <div class="box">
+            <div className="filterDiv show ruby/rails react col-md-4 col-sm-6 col-12">
+              <div className="box">
                 <img src={image} alt="comp"></img>
-                  <ul class="social-links">
+                  <ul className="social-links">
                     <li className="project-name"><h1>Bookstore</h1></li>
                     <br/>
                     <li className='project-language'><h3>React & Ruby/Rails</h3></li>
                     <br/>
-                    <li><a href="#"><i class="fa fa-code" aria-hidden="true"></i></a></li>
-                    <li><a href="#"><i class="fa fa-desktop" aria-hidden="true"></i></a></li>
+                    <li><a href="#"><i className="fa fa-code" aria-hidden="true"></i></a></li>
+                    <li><a href="#"><i className="fa fa-desktop" aria-hidden="true"></i></a></li>
                   </ul>
               </div>
             </div>
-            <div class="filterDiv show react col-md-4 col-sm-6">
-              <div class="box">
+            <div className="filterDiv show react col-md-4 col-sm-6 col-12">
+              <div className="box">
                 <img src={image} alt="comp"></img>
-                  <ul class="social-links">
+                  <ul className="social-links">
                     <li className="project-name"><h1>Calculator</h1></li>
                     <br/>
                     <li className='project-language'><h3>ReactJs</h3></li>
                     <br/>
-                    <li><a href="#"><i class="fa fa-code" aria-hidden="true"></i></a></li>
-                    <li><a href="#"><i class="fa fa-desktop" aria-hidden="true"></i></a></li>
+                    <li><a href="#"><i className="fa fa-code" aria-hidden="true"></i></a></li>
+                    <li><a href="#"><i className="fa fa-desktop" aria-hidden="true"></i></a></li>
                   </ul>
               </div>
             </div>
-            <div class="filterDiv show ruby/rails react col-md-4 col-sm-6">
-              <div class="box">
+            <div className="filterDiv show ruby/rails react col-md-4 col-sm-6 col-12">
+              <div className="box">
                 <img src={image} alt="comp"></img>
-                  <ul class="social-links">
+                  <ul className="social-links">
                     <li className="project-name"><h1>Scheduled Talks</h1></li>
                     <br/>
                     <li className='project-language'><h3>React & Ruby/Rails</h3></li>
                     <br/>
-                    <li><a href="#"><i class="fa fa-code" aria-hidden="true"></i></a></li>
-                    <li><a href="#"><i class="fa fa-desktop" aria-hidden="true"></i></a></li>
+                    <li><a href="#"><i className="fa fa-code" aria-hidden="true"></i></a></li>
+                    <li><a href="#"><i className="fa fa-desktop" aria-hidden="true"></i></a></li>
                   </ul>
               </div>
             </div>
