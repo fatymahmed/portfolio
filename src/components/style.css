@@ -1,19 +1,23 @@
-/*NAVBAR*/
+* {
+    margin: 0;
+    padding: 0;
+    }
+    
+                /***********NAVBAR***************/
+i{
+  color: #E31B6D;
+}
 nav{
     color: white;
     background-color: #1B242F;
 }
 
 nav div ul{
-    /* display: flex;
-    justify-content: space-between;*/
-    
     overflow: hidden;
     background-color: #333;
 }
 nav div ul li{
     list-style-type: none;
-
     float: left;
     display: block;
     color: #f2f2f2;
@@ -33,11 +37,53 @@ nav div ul li{
   
   .icon {
     display: none;
+    border: none;
+    font-size: 20px;
   }
   
 .home{
-    /* height: 100vh; */
     background: linear-gradient(to top, #005aa7, #fffde4);
+    height: 100vh;
+}
+
+
+        /********ABOUT**************/
+        
+.about{
+    padding: 50px;
+}
+
+.me{
+    text-align: center;
+}
+.about img {
+    border: 1px solid #ddd;
+    border-radius: 5%;
+    padding: 5px;
+    width: 200px;
+}
+
+.skill{
+    background-color: #EEEEEE;
+    margin: 20px auto;
+}
+
+/* .skill span{
+    right: 15px;
+
+position: absolute;
+} */
+.skill-percentage{
+      background-color: #00A1A7;
+      position: absolute;
+}
+
+.language{
+    background-color: #04C2C9;
+    color: white;
+    z-index: 99;
+    width: 100px;
+    padding-left: 15px 
 }
 
 @media screen and (max-width: 600px) {
@@ -60,3 +106,158 @@ nav div ul li{
         text-align: left;
     }
   }
+
+
+  /************PORTFOLIO*************/
+  .Portfolio{
+    background-color: #F5F5F5;
+  }
+  .container {
+    overflow: hidden;
+  }
+
+  #myBtnContainer{
+    margin-left: 75px;
+  }
+  
+  .filterDiv {
+    float: left;
+    padding: 0;
+    /* background-color: #2196F3; */
+    color: #ffffff;
+    width: 100px;
+    line-height: 100px;
+    text-align: center;
+    /* margin: 2px; */
+    display: none; /* Hidden by default */
+  }
+  
+  .project-name{
+    color: black;
+  }
+
+  .project-language{
+    color: #E31B6D;
+  }
+  /* The "show" class is added to the filtered elements */
+  .show {
+    display: block;
+  }
+  
+  /* Style the buttons */
+  .btn {
+    border: none;
+    outline: none;
+    margin: 2px;
+    padding: 12px 16px;
+    /* background-color: #f1f1f1; */
+    cursor: pointer;
+  }
+  
+  /* Add a light grey background on mouse-over */
+  .btn:hover {
+    background-color: #E31B6D;
+  }
+  
+  /* Add a dark background to the active button */
+  /* .btn.active {
+    background-color: #666;
+    color: white;
+  } */
+
+  .box{
+    position: relative;
+    box-shadow: 0 0 5px #555;
+}
+.box:before,
+.box:after{
+    content: "";
+    width: 0;
+    height: 0;
+    background:rgb(216, 213, 213);
+    position: absolute;
+    transition: all 0.5s ease 0s;
+}
+.box:before{
+    top: 0;
+    left: 0;
+}
+.box:after{
+    bottom: 0;
+    right: 0;
+}
+.box:hover:before,
+.box:hover:after{
+    width: 100%;
+    height: 100%;
+}
+.box img{
+    width: 100%;
+    height: 400px;
+}
+.box .social-links{
+    width: 100%;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    position: absolute;
+    top: 5%;
+    left: 0;
+    z-index: 1;
+    opacity: 0;
+    transition: all 0.7s ease 0s;
+}
+.box:hover .social-links{
+    opacity: 1;
+}
+.box .social-links li{
+    display: inline-block;
+    margin-right: 5px;
+}
+.box .social-links li a{
+    display: block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    background: #fff;
+    font-size: 15px;
+    color: #000;
+}
+.box .social-links li a:hover{
+    background: #70407f;
+    color: #fff;
+}
+.box .social-links li a:hover i{
+    -webkit-animation-name: loading;
+    animation-name: loading;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+}
+@-webkit-keyframes loading{
+    25%{
+        -webkit-transform: scale(1.3);
+        transform: scale(1.3);
+    }
+    75%{
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+}
+@keyframes loading{
+    25%{
+        -webkit-transform: scale(1.3);
+        transform: scale(1.3);
+    }
+    75%{
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+}
+@media only screen and (max-width: 990px){
+    .box{ margin-bottom: 20px; }
+}
