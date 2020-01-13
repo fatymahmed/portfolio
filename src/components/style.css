@@ -221,10 +221,10 @@ nav div ul li{
     line-height: 40px;
     background: #fff;
     font-size: 15px;
-    color: #000;
+    color: #E31B6D;
 }
 .box .social-links li a:hover{
-    background: #70407f;
+    background: #E31B6D;
     color: #fff;
 }
 .box .social-links li a:hover i{
@@ -266,6 +266,10 @@ nav div ul li{
   margin-top: 50px;
 }
 
+.blog{
+  margin-top: 10px;
+}
+
 .Blogs h1{
   margin-bottom: 1em; 
 }
@@ -277,7 +281,7 @@ nav div ul li{
 
 .blog a:hover{
   text-decoration: none;
-  color: #ccc;
+  color: #E31B6D;
 }
 
 .blog a p{
@@ -286,6 +290,10 @@ nav div ul li{
 .article-img{
   width: 270px;
   height: 200px;
+}
+
+.blog h5{
+  margin-top: 10px;
 }
 
 /*************CONTACT**********/
