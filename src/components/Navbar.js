@@ -25,6 +25,17 @@ function Navbar(){
 								smooth={true}
 								offset={-70}
 								duration= {500}>
+									Fatima Ahmed
+							</Link>
+						</li>
+						<li className="active nav-item">
+							<Link
+								activeClass="active"
+								to="home"
+								spy={true}
+								smooth={true}
+								offset={-70}
+								duration= {500}>
 									Home
 							</Link>
 						</li>

@@ -5,7 +5,7 @@
     
                 /***********NAVBAR***************/
 nav{
-    color: white;
+    background-color: black;
     position: fixed;
     z-index: 99;
     width: 100%;
@@ -34,13 +34,18 @@ nav div ul li{
   .nav-item a.active {
     color: #E31B6D;
   }
+
+  .fa-bars{
+    background-color: none;
+  }
   
   .icon {
+    background: none;
+    border-top: #04C2C9 solid 3px;
     color: #E31B6D;
     display: none;
     border: none;
     font-size: 30px;
-    background-color: none;
   }
   
         /*************HOME*******************/
@@ -315,8 +320,13 @@ nav div ul li{
     float: right;
     display: block;
   }
+  nav div ul{
+    border: none;
+  }
 
-  .nav-items .nav-item {display: none;}
+  /* .nav-items .nav-item {display: none;} */
+
+  .nav-items .nav-item:not(:first-child) {display: none;}
   .nav-items.responsive {position: relative;}
   .nav-items.responsive .icon {
       position: absolute;
