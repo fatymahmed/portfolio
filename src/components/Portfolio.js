@@ -1,5 +1,9 @@
+/* eslint-disable jsx-a11y/anchor-has-content */
 import React from 'react';
-import image from '../temp.jpeg';
+import designImage from '../interiorDesign.png';
+import showTalk from '../showTalk.png';
+import battleship from '../battleship.png';
+import FB from '../FB.png';
 
 function Portfolio(){
   function filterSelection(e) {
@@ -51,55 +55,55 @@ function Portfolio(){
 
         <div className="container">
           <div className="row">
-            <div className="filterDiv show col-md-4 col-sm-6 col-12">
+            <div className="filterDiv show ruby/rails col-md-4 col-sm-6 col-12">
               <div className="box">
-                <img src={image} alt="comp"></img>
+                <img src={FB} alt="comp"></img>
                   <ul className="social-links">
                     <li className="project-name"><h1>Facebook</h1></li>
                     <br/>
                     <li className='project-language'><h3>ruby/rails</h3></li>
                     <br/>
-                    <li><a href="#"><i className="fa fa-code" aria-hidden="true"></i></a></li>
+                    <li><a href="https://github.com/KaushikShivam/facebook_clone"><i className="fa fa-code" aria-hidden="true"></i></a></li>
                     <li><a href="#"><i className="fa fa-desktop" aria-hidden="true"></i></a></li>
+                  </ul>
+              </div>
+            </div>
+            <div className="filterDiv show html/css javascript col-md-4 col-sm-6 col-12">
+              <div className="box">
+                <img src={battleship} alt="comp"></img>
+                  <ul className="social-links">
+                    <li className="project-name"><h1>Battleship Game</h1></li>
+                    <br/>
+                    <li className='project-language'><h3>Javascript</h3></li>
+                    <br/>
+                    <li><a href="https://github.com/Urchmaney/battleship"><i className="fa fa-code" aria-hidden="true"></i></a></li>
+                    <li><a href="https://raw.githack.com/Urchmaney/battleship/battle-feature/dist/index.html"><i className="fa fa-desktop" aria-hidden="true"></i></a></li>
+                  </ul>
+              </div>
+            </div>
+            <div className="filterDiv show html/css col-md-4 col-sm-6 col-12">
+              <div className="box">
+                <img src={designImage} alt="interior design"></img>
+                  <ul className="social-links">
+                    <li className="project-name"><h1>Interior Design</h1></li>
+                    <br/>
+                    <li className='project-language'><h3>HTML/CSS</h3></li>
+                    <br/>
+                    <li><a href="https://github.com/fatymahmed/Interior-design"><i className="fa fa-code" aria-hidden="true"></i></a></li>
+                    <li><a href="https://fatymahmed.github.io/Interior-design/"><i className="fa fa-desktop" aria-hidden="true"></i></a></li>
                   </ul>
               </div>
             </div>
             <div className="filterDiv show ruby/rails react col-md-4 col-sm-6 col-12">
               <div className="box">
-                <img src={image} alt="comp"></img>
+                <img src={showTalk} alt="Talk Schedule"></img>
                   <ul className="social-links">
-                    <li className="project-name"><h1>Bookstore</h1></li>
+                    <li className="project-name"><h1>Talks Schedule</h1></li>
                     <br/>
                     <li className='project-language'><h3>React & Ruby/Rails</h3></li>
                     <br/>
-                    <li><a href="#"><i className="fa fa-code" aria-hidden="true"></i></a></li>
-                    <li><a href="#"><i className="fa fa-desktop" aria-hidden="true"></i></a></li>
-                  </ul>
-              </div>
-            </div>
-            <div className="filterDiv show react col-md-4 col-sm-6 col-12">
-              <div className="box">
-                <img src={image} alt="comp"></img>
-                  <ul className="social-links">
-                    <li className="project-name"><h1>Calculator</h1></li>
-                    <br/>
-                    <li className='project-language'><h3>ReactJs</h3></li>
-                    <br/>
-                    <li><a href="#"><i className="fa fa-code" aria-hidden="true"></i></a></li>
-                    <li><a href="#"><i className="fa fa-desktop" aria-hidden="true"></i></a></li>
-                  </ul>
-              </div>
-            </div>
-            <div className="filterDiv show ruby/rails react col-md-4 col-sm-6 col-12">
-              <div className="box">
-                <img src={image} alt="comp"></img>
-                  <ul className="social-links">
-                    <li className="project-name"><h1>Scheduled Talks</h1></li>
-                    <br/>
-                    <li className='project-language'><h3>React & Ruby/Rails</h3></li>
-                    <br/>
-                    <li><a href="#"><i className="fa fa-code" aria-hidden="true"></i></a></li>
-                    <li><a href="#"><i className="fa fa-desktop" aria-hidden="true"></i></a></li>
+                    <li><a href="https://github.com/fatymahmed/conference-schedule-frontend/tree/schedule"><i className="fa fa-code" aria-hidden="true"></i></a></li>
+                    <li><a href="https://conference-schedule-app.herokuapp.com/"><i className="fa fa-desktop" aria-hidden="true"></i></a></li>
                   </ul>
               </div>
             </div>
