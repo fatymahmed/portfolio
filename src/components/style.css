@@ -66,21 +66,12 @@ nav div ul li{
 }
 
 .desc{
-
-
   font-family: 'Pacifico', cursive;
   letter-spacing: 2px;
-
-  font-family: 'Bentham', serif;
-
-  font-family: 'Yesteryear', cursive;
-
   position: absolute;
   top: 30%;
   text-align: center;
   width: 100%;
-  /* color: black; */
-
 }
         /********ABOUT**************/
         
@@ -362,7 +353,8 @@ nav div ul li{
     .box{ margin-bottom: 20px; }
 }
 
-/**********************TEXT TYPING ANIMATION *****************/
+@media only screen and (min-width: 700px){
+  /**********************TEXT TYPING ANIMATION *****************/
 .desc h2 {
   overflow: hidden; /* Ensures the content is not revealed until the animation */
   border-right: .15em solid orange; /* The typwriter cursor */
@@ -384,4 +376,5 @@ nav div ul li{
 @keyframes blink-caret {
   from, to { border-color: transparent }
   50% { border-color: white; }
+}
 }
