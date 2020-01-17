@@ -4,12 +4,13 @@ import image from '../temp.jpeg';
 function About(){
   return(
     <div id="about" className="about container-fluid">
+      <h1>ABOUT ME</h1>
       <div className="row">
         <div className="me col-md-6 col-xs-12">
           <img src={image} alt="comp"></img>
           <h4>Who am I?</h4>
           <p>A full stack developer.</p>
-          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Provident molestias nam laborum. Veniam esse dolore, non, a et vero ab doloremque fugiat voluptas ad magni labore rem perspiciatis placeat ipsam.</p>
+          <p>I'm a computer engineer who enjoys writing code. I also love volunteering and mentoring people, I'm currently a mentor at Microverse and ALC Andela and an organiser at Rails Girls Mombasa.</p>
         </div>
         <div className="col-md-6 col-xs-12 skills">
           <div className="skill">

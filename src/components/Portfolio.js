@@ -4,6 +4,7 @@ import designImage from '../interiorDesign.png';
 import showTalk from '../showTalk.png';
 import battleship from '../battleship.png';
 import FB from '../FB.png';
+import bookstore from '../bookstore.png';
 
 function Portfolio(){
   function filterSelection(e) {
@@ -44,7 +45,7 @@ function Portfolio(){
 
   return(
     <div id="portfolio" className="Portfolio">
-      <h1>Portfolio</h1>
+      <h1>PORTFOLIO</h1>
       <div id="myBtnContainer">
         <button className="btn active" id="all" onClick={filterSelection}> ALL</button>
         <button className="btn" id="react" onClick={filterSelection}> REACT</button>
@@ -63,6 +64,7 @@ function Portfolio(){
                     <br/>
                     <li className='project-language'><h3>ruby/rails</h3></li>
                     <br/>
+                    <p>A rails app that allows it's users to make posts, send and accept friend requests.</p>
                     <li><a href="https://github.com/KaushikShivam/facebook_clone"><i className="fa fa-code" aria-hidden="true"></i></a></li>
                     <li><a href="#"><i className="fa fa-desktop" aria-hidden="true"></i></a></li>
                   </ul>
@@ -76,6 +78,7 @@ function Portfolio(){
                     <br/>
                     <li className='project-language'><h3>Javascript</h3></li>
                     <br/>
+                    <p>The famous battleship game built in JavaScript</p>
                     <li><a href="https://github.com/Urchmaney/battleship"><i className="fa fa-code" aria-hidden="true"></i></a></li>
                     <li><a href="https://raw.githack.com/Urchmaney/battleship/battle-feature/dist/index.html"><i className="fa fa-desktop" aria-hidden="true"></i></a></li>
                   </ul>
@@ -89,6 +92,7 @@ function Portfolio(){
                     <br/>
                     <li className='project-language'><h3>HTML/CSS</h3></li>
                     <br/>
+                    <p>A website designed for an interior design company</p>
                     <li><a href="https://github.com/fatymahmed/Interior-design"><i className="fa fa-code" aria-hidden="true"></i></a></li>
                     <li><a href="https://fatymahmed.github.io/Interior-design/"><i className="fa fa-desktop" aria-hidden="true"></i></a></li>
                   </ul>
@@ -102,8 +106,23 @@ function Portfolio(){
                     <br/>
                     <li className='project-language'><h3>React & Ruby/Rails</h3></li>
                     <br/>
+                    <p>A react and rails app that allows it's users to choose which talks they'd like to add to their schedule</p>
                     <li><a href="https://github.com/fatymahmed/conference-schedule-frontend/tree/schedule"><i className="fa fa-code" aria-hidden="true"></i></a></li>
                     <li><a href="https://conference-schedule-app.herokuapp.com/"><i className="fa fa-desktop" aria-hidden="true"></i></a></li>
+                  </ul>
+              </div>
+            </div>
+            <div className="filterDiv show ruby/rails react col-md-4 col-sm-6 col-12">
+              <div className="box">
+                <img src={bookstore} alt="Bookstore"></img>
+                  <ul className="social-links">
+                    <li className="project-name"><h1>Bookstore</h1></li>
+                    <br/>
+                    <li className='project-language'><h3>React & Redux & Ruby/Rails</h3></li>
+                    <br/>
+                    <p>A bookstore app that allows users to create books and filter them according to the category</p>
+                    <li><a href="https://github.com/fatymahmed/bookstore-react/tree/api-service"><i className="fa fa-code" aria-hidden="true"></i></a></li>
+                    <li><a href="https://bookstore-react-app.herokuapp.com"><i className="fa fa-desktop" aria-hidden="true"></i></a></li>
                   </ul>
               </div>
             </div>
