@@ -66,21 +66,7 @@ function Portfolio(){
                     <br/>
                     <p>A rails app that allows it's users to make posts, send and accept friend requests.</p>
                     <li><a href="https://github.com/KaushikShivam/facebook_clone"><i className="fa fa-code" aria-hidden="true"></i></a></li>
-                    <li><a href="#"><i className="fa fa-desktop" aria-hidden="true"></i></a></li>
-                  </ul>
-              </div>
-            </div>
-            <div className="filterDiv show html/css javascript col-md-4 col-sm-6 col-12">
-              <div className="box">
-                <img src={battleship} alt="comp"></img>
-                  <ul className="social-links">
-                    <li className="project-name"><h1>Battleship Game</h1></li>
-                    <br/>
-                    <li className='project-language'><h3>Javascript</h3></li>
-                    <br/>
-                    <p>The famous battleship game built in JavaScript</p>
-                    <li><a href="https://github.com/Urchmaney/battleship"><i className="fa fa-code" aria-hidden="true"></i></a></li>
-                    <li><a href="https://raw.githack.com/Urchmaney/battleship/battle-feature/dist/index.html"><i className="fa fa-desktop" aria-hidden="true"></i></a></li>
+                    <li><a href="https://sleepy-plateau-46117.herokuapp.com/"><i className="fa fa-desktop" aria-hidden="true"></i></a></li>
                   </ul>
               </div>
             </div>
@@ -95,6 +81,20 @@ function Portfolio(){
                     <p>A website designed for an interior design company</p>
                     <li><a href="https://github.com/fatymahmed/Interior-design"><i className="fa fa-code" aria-hidden="true"></i></a></li>
                     <li><a href="https://fatymahmed.github.io/Interior-design/"><i className="fa fa-desktop" aria-hidden="true"></i></a></li>
+                  </ul>
+              </div>
+            </div>
+            <div className="filterDiv show html/css javascript col-md-4 col-sm-6 col-12">
+              <div className="box">
+                <img src={battleship} alt="comp"></img>
+                  <ul className="social-links">
+                    <li className="project-name"><h1>Battleship Game</h1></li>
+                    <br/>
+                    <li className='project-language'><h3>Javascript</h3></li>
+                    <br/>
+                    <p>The famous battleship game built in JavaScript</p>
+                    <li><a href="https://github.com/Urchmaney/battleship"><i className="fa fa-code" aria-hidden="true"></i></a></li>
+                    <li><a href="https://raw.githack.com/Urchmaney/battleship/battle-feature/dist/index.html"><i className="fa fa-desktop" aria-hidden="true"></i></a></li>
                   </ul>
               </div>
             </div>
