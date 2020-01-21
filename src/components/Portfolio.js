@@ -56,7 +56,7 @@ function Portfolio(){
 
         <div className="container">
           <div className="row">
-            <div className="filterDiv show ruby/rails col-md-4 col-sm-6 col-12">
+            <div className="filterDiv show ruby/rails col-md-6 col-sm-12 col-lg-4">
               <div className="box">
                 <img src={FB} alt="comp"></img>
                   <ul className="social-links">
@@ -70,7 +70,7 @@ function Portfolio(){
                   </ul>
               </div>
             </div>
-            <div className="filterDiv show html/css col-md-4 col-sm-6 col-12">
+            <div className="filterDiv show html/css col-md-6 col-sm-12 col-lg-4">
               <div className="box">
                 <img src={designImage} alt="interior design"></img>
                   <ul className="social-links">
@@ -84,7 +84,7 @@ function Portfolio(){
                   </ul>
               </div>
             </div>
-            <div className="filterDiv show html/css javascript col-md-4 col-sm-6 col-12">
+            <div className="filterDiv show html/css javascript col-md-6 col-sm-12 col-lg-4">
               <div className="box">
                 <img src={battleship} alt="comp"></img>
                   <ul className="social-links">
@@ -98,7 +98,7 @@ function Portfolio(){
                   </ul>
               </div>
             </div>
-            <div className="filterDiv show ruby/rails react col-md-4 col-sm-6 col-12">
+            <div className="filterDiv show ruby/rails react col-md-6 col-sm-12 col-lg-4">
               <div className="box">
                 <img src={showTalk} alt="Talk Schedule"></img>
                   <ul className="social-links">
@@ -112,7 +112,7 @@ function Portfolio(){
                   </ul>
               </div>
             </div>
-            <div className="filterDiv show ruby/rails react col-md-4 col-sm-6 col-12">
+            <div className="filterDiv show ruby/rails react col-md-6 col-sm-12 col-lg-4">
               <div className="box">
                 <img src={bookstore} alt="Bookstore"></img>
                   <ul className="social-links">
