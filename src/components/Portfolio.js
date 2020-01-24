@@ -10,7 +10,7 @@ function Portfolio(){
   function filterSelection(e) {
     var c=e.target.id;
     var x, i;
-    x = document.getElementsByClassName("filterDiv");
+    x = document.getElementsByClassName("filterDiv w3-animate-zoom");
     if (c === "all") c = "";
     for (i = 0; i < x.length; i++) {
       RemoveClass(x[i], "show");
@@ -56,7 +56,7 @@ function Portfolio(){
 
         <div className="container">
           <div className="row">
-            <div className="filterDiv show ruby/rails col-md-6 col-sm-12 col-lg-4">
+            <div className="filterDiv w3-animate-zoom show ruby/rails col-md-6 col-sm-12 col-lg-4">
               <div className="box">
                 <img src={FB} alt="comp"></img>
                   <ul className="social-links">
@@ -70,7 +70,7 @@ function Portfolio(){
                   </ul>
               </div>
             </div>
-            <div className="filterDiv show html/css col-md-6 col-sm-12 col-lg-4">
+            <div className="filterDiv w3-animate-zoom show html/css col-md-6 col-sm-12 col-lg-4">
               <div className="box">
                 <img src={designImage} alt="interior design"></img>
                   <ul className="social-links">
@@ -84,7 +84,7 @@ function Portfolio(){
                   </ul>
               </div>
             </div>
-            <div className="filterDiv show html/css javascript col-md-6 col-sm-12 col-lg-4">
+            <div className="filterDiv w3-animate-zoom show html/css javascript col-md-6 col-sm-12 col-lg-4">
               <div className="box">
                 <img src={battleship} alt="comp"></img>
                   <ul className="social-links">
@@ -98,7 +98,7 @@ function Portfolio(){
                   </ul>
               </div>
             </div>
-            <div className="filterDiv show ruby/rails react col-md-6 col-sm-12 col-lg-4">
+            <div className="filterDiv w3-animate-zoom show ruby/rails react col-md-6 col-sm-12 col-lg-4">
               <div className="box">
                 <img src={showTalk} alt="Talk Schedule"></img>
                   <ul className="social-links">
@@ -112,7 +112,7 @@ function Portfolio(){
                   </ul>
               </div>
             </div>
-            <div className="filterDiv show ruby/rails react col-md-6 col-sm-12 col-lg-4">
+            <div className="filterDiv w3-animate-zoom show ruby/rails react col-md-6 col-sm-12 col-lg-4">
               <div className="box">
                 <img src={bookstore} alt="Bookstore"></img>
                   <ul className="social-links">

@@ -56,24 +56,30 @@ nav div ul li{
 .home{
   background-color: black;
   height: 100vh;
-  color: #E31B6D;
+  color: white;
   height: 100vh;
 }
 
 .main-img{
   width: 100%;
   height: 100vh;
-  opacity: 0.1;
+  opacity: 0.2;
   position: relative;
 }
 
 .desc{
-  font-family: 'Pacifico', cursive;
+  /* font-family: Pacifico,cursive; */
+  font-family: 'Playfair Display', serif;
   letter-spacing: 2px;
   position: absolute;
   top: 30%;
   text-align: center;
   width: 100%;
+}
+
+.desc h2{
+  font-size: 2rem;
+  font-weight: bold;
 }
         /********ABOUT**************/
         
@@ -349,6 +355,11 @@ Form{
   .icon {
     float: right;
     display: block;
+    margin: 8px;
+    color:white;
+  }
+  .icon:hover{
+    color: #E31B6D;
   }
   nav div ul{
     border: none;
@@ -372,7 +383,7 @@ Form{
     .box{ margin-bottom: 20px; }
 }
 
-@media only screen and (min-width: 700px){
+@media only screen and (min-width: 850px){
   /**********************TEXT TYPING ANIMATION *****************/
 
  .desc h2{
@@ -384,14 +395,14 @@ Form{
   animation: 
     typing 3.5s steps(40, end),
     blink-caret .75s step-end infinite;
-    width: 700px;
+    width: 850px;
 }
 
  
 
 @keyframes typing {
   from { width: 0 }
-  to { width: 55% }
+  to { width: 65% }
 }
 
 @keyframes blink-caret {
