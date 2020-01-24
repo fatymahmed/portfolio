@@ -54,8 +54,7 @@ nav div ul li{
         /*************HOME*******************/
 
 .home{
-  background-color: black;
-  height: 100vh;
+  background: black;
   color: white;
   height: 100vh;
 }
@@ -316,7 +315,6 @@ nav div ul li{
 /*************CONTACT**********/
 .Contact{
   background-color: #252934;
-  margin-top: 50px;
   padding-top: 20px;
   padding-bottom: 20px;
   color: white;
@@ -395,14 +393,14 @@ Form{
   animation: 
     typing 3.5s steps(40, end),
     blink-caret .75s step-end infinite;
-    width: 850px;
+    width: 700px;
 }
 
  
 
 @keyframes typing {
   from { width: 0 }
-  to { width: 65% }
+  to { width: 53% }
 }
 
 @keyframes blink-caret {
