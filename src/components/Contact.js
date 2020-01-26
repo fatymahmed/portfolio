@@ -45,7 +45,7 @@ class Contact extends Component {
           <Form onSubmit={this.handleSubmit.bind(this)}>
             <FormGroup controlId="formBasicEmail">
               <Label className="text-muted">Email address</Label>
-              <Input
+              <Input required 
                 type="email"
                 name="email"
                 value={this.state.email}
@@ -55,7 +55,7 @@ class Contact extends Component {
               />
             </FormGroup><FormGroup controlId="formBasicName">
               <Label className="text-muted">Name</Label>
-              <Input
+              <Input required
                 type="text"
                 name="name"
                 value={this.state.name}
@@ -65,7 +65,7 @@ class Contact extends Component {
               />
             </FormGroup><FormGroup controlId="formBasicSubject">
               <Label className="text-muted">Subject</Label>
-              <Input
+              <Input required
                 type="text"
                 name="subject"
                 className="text-primary"
@@ -75,7 +75,7 @@ class Contact extends Component {
               />
             </FormGroup><FormGroup controlId="formBasicMessage">
               <Label className="text-muted">Message</Label>
-              <Input
+              <Input required
                 type="textarea"
                 name="message"
                 className="text-primary"
