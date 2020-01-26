@@ -17,7 +17,7 @@ function About(){
             <div className="skill-percentage" style={{width:"80%"}}>
               <div className="language">HTML</div>
             </div>
-            <span style={{top: 20}}>80%</span>
+            <span>80%</span>
           </div>
           <div className="skill">
             <div className="skill-percentage" style={{width:"70%"}}>

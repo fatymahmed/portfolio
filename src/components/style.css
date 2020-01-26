@@ -108,11 +108,16 @@ nav div ul li, .name{
 .skill{
     background-color: #DED;
     margin: 20px auto;
+    position: relative;
+}
+.skill span{
+  position: absolute;
+  right: 0;
+  top: 0;
 }
 
 .skill-percentage{
-      background-color: #00A1A7;
-      position: absolute;
+  background-color: #00A1A7;
 }
 
 .language{
