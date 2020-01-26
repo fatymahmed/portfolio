@@ -41,7 +41,7 @@ class Contact extends Component {
   render() {
     return (
           <div id="contact" className="Contact">
-          <h1 className="p-heading1">CONTACT ME</h1>
+          <h1 className="p-heading1">CONTACT</h1>
           <Form onSubmit={this.handleSubmit.bind(this)}>
             <FormGroup controlId="formBasicEmail">
               <Label className="text-muted">Email address</Label>
@@ -51,7 +51,7 @@ class Contact extends Component {
                 value={this.state.email}
                 className="text-primary"
                 onChange={this.handleChange.bind(this, 'email')}
-                placeholder="Enter email"
+                placeholder="Email"
               />
             </FormGroup><FormGroup controlId="formBasicName">
               <Label className="text-muted">Name</Label>
@@ -82,7 +82,7 @@ class Contact extends Component {
                 value={this.state.message}
                 onChange={this.handleChange.bind(this, 'message')}
               />
-            </FormGroup><Button variant="primary" type="submit">
+            </FormGroup><Button variant="primary" type="submit" className="submit-btn">
               Submit
             </Button>
           </Form>
