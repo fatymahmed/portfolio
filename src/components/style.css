@@ -138,7 +138,8 @@ nav div ul li, .name{
   }
 
   #myBtnContainer{
-    margin-left: 75px;
+    display: flex;
+    justify-content: center;  
   }
   
   .filterDiv {
@@ -296,7 +297,7 @@ nav div ul li, .name{
 
 .blog a{
   color: black;
-  max-width: 300px;
+  max-width: 400px;
 }
 
 .blog a:hover{
@@ -308,8 +309,8 @@ nav div ul li, .name{
   font-weight: lighter;
 }
 .article-img{
-  width: 300px;
-  height: 200px;
+  width: 320px;
+  height: 220px;
 }
 
 .blog h5{
@@ -360,6 +361,11 @@ Form{
 }
 
 /****************MEDIA QUERIES******************/
+@media screen and (max-width: 480px) {
+  #myBtnContainer button{
+    font-size: 0.7rem;
+  }
+}
 @media screen and (max-width: 600px) {
   .icon {
     float: right;
@@ -374,7 +380,7 @@ Form{
     border: none;
   }
 
-  .nav-items .nav-item:not(:first-child) {display: none;}
+  .nav-items .nav-item {display: none;}
   .nav-items.responsive {position: relative;}
   .nav-items.responsive .icon {
       position: absolute;
