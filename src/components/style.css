@@ -13,12 +13,16 @@ nav{
     z-index: 99;
     width: 100%;
 }
+.navbar-container{
+  display: flex;
+  justify-content: space-between;
+}
 
 nav div ul{
     overflow: hidden;
     background-color: black;
 }
-nav div ul li{
+nav div ul li, .name{
     list-style-type: none;
     float: left;
     display: block;
@@ -304,7 +308,7 @@ nav div ul li{
   font-weight: lighter;
 }
 .article-img{
-  width: 270px;
+  width: 300px;
   height: 200px;
 }
 
