@@ -5,6 +5,7 @@ import showTalk from '../showTalk.png';
 import battleship from '../battleship.png';
 import FB from '../FB.png';
 import bookstore from '../bookstore.png';
+import weather from '../weather.png';
 
 function Portfolio(){
   function filterSelection(e) {
@@ -84,20 +85,6 @@ function Portfolio(){
                   </ul>
               </div>
             </div>
-            <div className="filterDiv w3-animate-zoom show html/css javascript col-md-6 col-sm-12 col-lg-4">
-              <div className="box">
-                <img src={battleship} alt="comp"></img>
-                  <ul className="social-links">
-                    <li className="project-name"><h1>Battleship Game</h1></li>
-                    <br/>
-                    <li className='project-language'><h3>Javascript</h3></li>
-                    <br/>
-                    <p>The famous battleship game built in JavaScript</p>
-                    <li><a href="https://github.com/Urchmaney/battleship"><i className="fa fa-code" aria-hidden="true"></i></a></li>
-                    <li><a href="https://raw.githack.com/Urchmaney/battleship/battle-feature/dist/index.html"><i className="fa fa-desktop" aria-hidden="true"></i></a></li>
-                  </ul>
-              </div>
-            </div>
             <div className="filterDiv w3-animate-zoom show ruby/rails react col-md-6 col-sm-12 col-lg-4">
               <div className="box">
                 <img src={showTalk} alt="Talk Schedule"></img>
@@ -123,6 +110,34 @@ function Portfolio(){
                     <p>A bookstore app that allows users to create books and filter them according to the category</p>
                     <li><a href="https://github.com/fatymahmed/bookstore-react/tree/api-service"><i className="fa fa-code" aria-hidden="true"></i></a></li>
                     <li><a href="https://bookstore-react-app.herokuapp.com"><i className="fa fa-desktop" aria-hidden="true"></i></a></li>
+                  </ul>
+              </div>
+            </div>
+            <div className="filterDiv w3-animate-zoom show html/css javascript col-md-6 col-sm-12 col-lg-4">
+              <div className="box">
+                <img src={battleship} alt="comp"></img>
+                  <ul className="social-links">
+                    <li className="project-name"><h1>Battleship Game</h1></li>
+                    <br/>
+                    <li className='project-language'><h3>Javascript</h3></li>
+                    <br/>
+                    <p>The famous battleship game built in JavaScript</p>
+                    <li><a href="https://github.com/Urchmaney/battleship"><i className="fa fa-code" aria-hidden="true"></i></a></li>
+                    <li><a href="https://raw.githack.com/Urchmaney/battleship/battle-feature/dist/index.html"><i className="fa fa-desktop" aria-hidden="true"></i></a></li>
+                  </ul>
+              </div>
+            </div>
+            <div className="filterDiv w3-animate-zoom show javascript html/css col-md-6 col-sm-12 col-lg-4">
+              <div className="box">
+                <img src={weather} alt="weather"></img>
+                  <ul className="social-links">
+                    <li className="project-name"><h1>Weather</h1></li>
+                    <br/>
+                    <li className='project-language'><h3>JavaScript & Html & CSS</h3></li>
+                    <br/>
+                    <p>An app that allows users to get the weather of any city using a weather API </p>
+                    <li><a href="https://github.com/fatymahmed/weather-app"><i className="fa fa-code" aria-hidden="true"></i></a></li>
+                    <li><a href="https://fatymahmed.github.io/weather-app/dist/index.html"><i className="fa fa-desktop" aria-hidden="true"></i></a></li>
                   </ul>
               </div>
             </div>

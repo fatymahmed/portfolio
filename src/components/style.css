@@ -164,8 +164,8 @@ nav div ul li, .name{
 }
 
 .social-media a i{
-  font-size: 20px;
-  background-color: rgb(172, 165, 165);
+  font-size: 30px;
+  background-color: none;
   padding: 10px;
 }
   /************PORTFOLIO*************/
@@ -365,10 +365,16 @@ nav div ul li, .name{
 
 /*************CONTACT**********/
 .Contact{
-  background-color: #252934;
+  height: 100vh;
+  background-color: #1b242f;
   padding-top: 20px;
   padding-bottom: 20px;
   color: white;
+}
+#contact p{
+  text-align: center;
+  color: #04c2c9;
+  font-size: 18px;
 }
 
 .p-heading1{
@@ -380,8 +386,11 @@ Form{
   margin: auto;
 }
 
+.form-control{
+  background-color: white;
+}
 .icons{
-  /* margin-top: 20px; */
+  margin-top: 20px;
   display: flex;
   justify-content: center;
 }
@@ -405,7 +414,9 @@ Form{
   margin: auto;
   display: block;
 }
-
+#text{
+  height: 150px;
+}
 /****************MEDIA QUERIES******************/
 @media screen and (max-width: 480px) {
   #myBtnContainer button{

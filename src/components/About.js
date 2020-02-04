@@ -1,5 +1,4 @@
 import React from 'react';
-import image from '../my.png';
 
 function About(){
   return(
@@ -12,28 +11,9 @@ function About(){
         <p>I hold a bachelor's degree in computer engineering</p>
         <p>When I'm not building applications,I mentor people and organize or facilitate tech meetups</p>
         <div className="reach-me">
-        <p className="email-reach">REACH OUT TO ME</p>
-        <div className="contact-info">
-          <div>
-            <p className="email">fatima.ahmed.muhsin@gmail.com</p>
-          </div>
-          <div className="social-media icons">
-            <a href="https://www.linkedin.com/in/fatima-ahmed-46b01298">
-              <div className="social-icon" >
-              <i className="fab fa-linkedin-in"></i>
-              </div>
-            </a>
-            <a href="https://twitter.com/fatymahmed">
-              <div className="social-icon" >
-              <i className="fab fa-twitter"></i>
-              </div>
-            </a>
-            <a href="https://github.com/fatymahmed">
-              <div className="social-icon">
-              <i className="fab fa-github"></i>
-              </div>
-            </a>
-          </div>
+        <p className="email-reach">REACH OUT TO ME AT</p>
+        <div>
+          <p className="email">fatima.ahmed.muhsin@gmail.com</p>
         </div>
       </div>
     </div>

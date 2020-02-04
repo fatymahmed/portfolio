@@ -15,8 +15,8 @@ function App() {
         <Home/>
         <Portfolio/>
         <About/>
-        <Blog/>
-        {/* <Contact/> */}
+        {/* <Blog/> */}
+        <Contact/>
       </div>
     </Router>
    

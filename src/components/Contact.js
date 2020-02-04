@@ -42,9 +42,9 @@ class Contact extends Component {
     return (
           <div id="contact" className="Contact">
           <h1 className="p-heading1">CONTACT</h1>
+          <p> Have a question or want to work together? </p>
           <Form onSubmit={this.handleSubmit.bind(this)}>
             <FormGroup controlId="formBasicEmail">
-              <Label className="text-muted">Email address</Label>
               <Input required 
                 type="email"
                 name="email"
@@ -54,7 +54,6 @@ class Contact extends Component {
                 placeholder="Email"
               />
             </FormGroup><FormGroup controlId="formBasicName">
-              <Label className="text-muted">Name</Label>
               <Input required
                 type="text"
                 name="name"
@@ -63,21 +62,12 @@ class Contact extends Component {
                 onChange={this.handleChange.bind(this, 'name')}
                 placeholder="Name"
               />
-            </FormGroup><FormGroup controlId="formBasicSubject">
-              <Label className="text-muted">Subject</Label>
-              <Input required
-                type="text"
-                name="subject"
-                className="text-primary"
-                value={this.state.subject}
-                onChange={this.handleChange.bind(this, 'subject')}
-                placeholder="Subject"
-              />
             </FormGroup><FormGroup controlId="formBasicMessage">
-              <Label className="text-muted">Message</Label>
               <Input required
+                id="text"
                 type="textarea"
                 name="message"
+                placeholder="Message"
                 className="text-primary"
                 value={this.state.message}
                 onChange={this.handleChange.bind(this, 'message')}
@@ -86,6 +76,7 @@ class Contact extends Component {
               Submit
             </Button>
           </Form>
+          <hr/>
           <div className="icons">
       <a href="https://www.linkedin.com/in/fatima-ahmed-46b01298">
         <div className="social-icon" >
