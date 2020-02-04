@@ -5,7 +5,39 @@ function About(){
   return(
     <div id="about" className="about container-fluid">
       <h1>ABOUT ME</h1>
-      <div className="row">
+      <div className="about-me">
+        <h2>My name is Fatima Ahmed</h2>
+        <p>I'm a full stack web developer who designs and builds applications</p>
+        <p>I'm currently working as a Technical Support Engineer at Microverse</p>
+        <p>I hold a bachelor's degree in computer engineering</p>
+        <p>When I'm not building applications,I mentor people and organize or facilitate tech meetups</p>
+        <div className="reach-me">
+        <p className="email-reach">REACH OUT TO ME</p>
+        <div className="contact-info">
+          <div>
+            <p className="email">fatima.ahmed.muhsin@gmail.com</p>
+          </div>
+          <div className="social-media icons">
+            <a href="https://www.linkedin.com/in/fatima-ahmed-46b01298">
+              <div className="social-icon" >
+              <i className="fab fa-linkedin-in"></i>
+              </div>
+            </a>
+            <a href="https://twitter.com/fatymahmed">
+              <div className="social-icon" >
+              <i className="fab fa-twitter"></i>
+              </div>
+            </a>
+            <a href="https://github.com/fatymahmed">
+              <div className="social-icon">
+              <i className="fab fa-github"></i>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+      {/* <div className="row">
         <div className="me w3-animate-left col-md-6 col-xs-12">
           <img src={image} alt="comp"></img>
           <h4>Who am I?</h4>
@@ -50,7 +82,7 @@ function About(){
             <span>40%</span>
           </div>
         </div>
-      </div>
+      </div> */}
     </div>
   )
 }

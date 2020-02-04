@@ -71,9 +71,8 @@ nav div ul li, .name{
 }
 
 .desc{
-  /* font-family: Pacifico,cursive; */
-  font-family: 'Playfair Display', serif;
-  letter-spacing: 2px;
+  font-family: 'Bebas Neue', cursive;
+  letter-spacing: 0.05em;
   position: absolute;
   top: 45%;
   text-align: center;
@@ -81,8 +80,11 @@ nav div ul li, .name{
 }
 
 .desc h2{
-  font-size: 2rem;
+  font-size: 3rem;
   font-weight: bold;
+}
+.desc-highlight{
+  color: #04C2C9;
 }
         /********ABOUT**************/
         
@@ -128,6 +130,44 @@ nav div ul li, .name{
     padding-left: 15px 
 }
 
+/*new*/
+.about-me{
+  font-family: 'Barlow', sans-serif;
+  text-align: center;
+  max-width: 600px;
+  margin:auto;
+}
+
+.about-me h2{
+  font-family: 'Barlow', sans-serif;
+  color: #E31B6D;
+  font-weight: bolder;
+}
+.about-me p {
+  font-size: 1.15em;
+}
+
+.email-reach{
+  margin-top: 10px;
+  font-weight: bold;
+}
+.email{
+  color: #E31B6D;
+}
+.social-media a{
+  color: white;
+  padding-right: 20px;
+}
+
+.social-media a:hover{
+  color: #E31B6D;
+}
+
+.social-media a i{
+  font-size: 20px;
+  background-color: rgb(172, 165, 165);
+  padding: 10px;
+}
   /************PORTFOLIO*************/
   .Portfolio{
     background-color: #F5F5F5;
@@ -230,6 +270,7 @@ nav div ul li, .name{
     transition: all 0.7s ease 0s;
 }
 .box .social-links p{
+  margin: 5px;
   color: #E31B6D;
   line-height: 25px;
 }
@@ -340,7 +381,7 @@ Form{
 }
 
 .icons{
-  margin-top: 20px;
+  /* margin-top: 20px; */
   display: flex;
   justify-content: center;
 }
@@ -400,10 +441,13 @@ Form{
 }
 
 @media only screen and (max-width: 990px){
+  .about-me p {
+    font-size: 1em;
+  }
     .box{ margin-bottom: 20px; }
 }
 
-@media only screen and (min-width: 850px){
+@media only screen and (min-width: 870px){
   /**********************TEXT TYPING ANIMATION *****************/
 
  .desc h2{
@@ -411,18 +455,18 @@ Form{
   border-right: .15em solid white; /* The typwriter cursor */
   white-space: nowrap; /* Keeps the content on a single line */
   margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-  letter-spacing: .15em; /* Adjust as needed */
+  letter-spacing: .05em; /* Adjust as needed */
   animation: 
     typing 3.5s steps(40, end),
     blink-caret .75s step-end infinite;
-    width: 700px;
+    width: 865px;
 }
 
  
 
 @keyframes typing {
   from { width: 0 }
-  to { width: 53% }
+  to { width: 65% }
 }
 
 @keyframes blink-caret {
