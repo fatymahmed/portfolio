@@ -66,8 +66,8 @@ function Portfolio(){
                     <li className='project-language'><h3>ruby/rails</h3></li>
                     <br/>
                     <p>A rails app that allows it's users to make posts, send and accept friend requests.</p>
-                    <li><a href="https://github.com/KaushikShivam/facebook_clone"><i className="fa fa-code" aria-hidden="true"></i></a></li>
-                    <li><a href="https://sleepy-plateau-46117.herokuapp.com/"><i className="fa fa-desktop" aria-hidden="true"></i></a></li>
+                    <li><a href="https://github.com/KaushikShivam/facebook_clone" target="_blank" rel="noopener noreferrer"><i className="fa fa-code" aria-hidden="true"></i></a></li>
+                    <li><a href="https://sleepy-plateau-46117.herokuapp.com/" target="_blank" rel="noopener noreferrer"><i className="fa fa-desktop" aria-hidden="true"></i></a></li>
                   </ul>
               </div>
             </div>
@@ -80,8 +80,8 @@ function Portfolio(){
                     <li className='project-language'><h3>HTML/CSS</h3></li>
                     <br/>
                     <p>A website designed for an interior design company</p>
-                    <li><a href="https://github.com/fatymahmed/Interior-design"><i className="fa fa-code" aria-hidden="true"></i></a></li>
-                    <li><a href="https://fatymahmed.github.io/Interior-design/"><i className="fa fa-desktop" aria-hidden="true"></i></a></li>
+                    <li><a href="https://github.com/fatymahmed/Interior-design" target="_blank" rel="noopener noreferrer"><i className="fa fa-code" aria-hidden="true"></i></a></li>
+                    <li><a href="https://fatymahmed.github.io/Interior-design/" target="_blank" rel="noopener noreferrer"><i className="fa fa-desktop" aria-hidden="true"></i></a></li>
                   </ul>
               </div>
             </div>
@@ -94,8 +94,8 @@ function Portfolio(){
                     <li className='project-language'><h3>React & Ruby/Rails</h3></li>
                     <br/>
                     <p>A react and rails app that allows it's users to choose which talks they'd like to add to their schedule</p>
-                    <li><a href="https://github.com/fatymahmed/conference-schedule-frontend/tree/schedule"><i className="fa fa-code" aria-hidden="true"></i></a></li>
-                    <li><a href="https://conference-schedule-app.herokuapp.com/"><i className="fa fa-desktop" aria-hidden="true"></i></a></li>
+                    <li><a href="https://github.com/fatymahmed/conference-schedule-frontend/tree/schedule" target="_blank" rel="noopener noreferrer"><i className="fa fa-code" aria-hidden="true"></i></a></li>
+                    <li><a href="https://conference-schedule-app.herokuapp.com/" target="_blank" rel="noopener noreferrer"><i className="fa fa-desktop" aria-hidden="true"></i></a></li>
                   </ul>
               </div>
             </div>
@@ -108,8 +108,8 @@ function Portfolio(){
                     <li className='project-language'><h3>React & Redux & Ruby/Rails</h3></li>
                     <br/>
                     <p>A bookstore app that allows users to create books and filter them according to the category</p>
-                    <li><a href="https://github.com/fatymahmed/bookstore-react/tree/api-service"><i className="fa fa-code" aria-hidden="true"></i></a></li>
-                    <li><a href="https://bookstore-react-app.herokuapp.com"><i className="fa fa-desktop" aria-hidden="true"></i></a></li>
+                    <li><a href="https://github.com/fatymahmed/bookstore-react/tree/api-service" target="_blank" rel="noopener noreferrer"><i className="fa fa-code" aria-hidden="true"></i></a></li>
+                    <li><a href="https://bookstore-react-app.herokuapp.com" target="_blank" rel="noopener noreferrer"><i className="fa fa-desktop" aria-hidden="true"></i></a></li>
                   </ul>
               </div>
             </div>
@@ -122,8 +122,8 @@ function Portfolio(){
                     <li className='project-language'><h3>Javascript</h3></li>
                     <br/>
                     <p>The famous battleship game built in JavaScript</p>
-                    <li><a href="https://github.com/Urchmaney/battleship"><i className="fa fa-code" aria-hidden="true"></i></a></li>
-                    <li><a href="https://raw.githack.com/Urchmaney/battleship/battle-feature/dist/index.html"><i className="fa fa-desktop" aria-hidden="true"></i></a></li>
+                    <li><a href="https://github.com/Urchmaney/battleship" target="_blank" rel="noopener noreferrer"><i className="fa fa-code" aria-hidden="true"></i></a></li>
+                    <li><a href="https://raw.githack.com/Urchmaney/battleship/battle-feature/dist/index.html" target="_blank" rel="noopener noreferrer"><i className="fa fa-desktop" aria-hidden="true"></i></a></li>
                   </ul>
               </div>
             </div>
@@ -136,8 +136,8 @@ function Portfolio(){
                     <li className='project-language'><h3>JavaScript & Html & CSS</h3></li>
                     <br/>
                     <p>An app that allows users to get the weather of any city using a weather API </p>
-                    <li><a href="https://github.com/fatymahmed/weather-app"><i className="fa fa-code" aria-hidden="true"></i></a></li>
-                    <li><a href="https://fatymahmed.github.io/weather-app/dist/index.html"><i className="fa fa-desktop" aria-hidden="true"></i></a></li>
+                    <li><a href="https://github.com/fatymahmed/weather-app" target="_blank" rel="noopener noreferrer"><i className="fa fa-code" aria-hidden="true"></i></a></li>
+                    <li><a href="https://fatymahmed.github.io/weather-app/dist/index.html" target="_blank" rel="noopener noreferrer"><i className="fa fa-desktop" aria-hidden="true"></i></a></li>
                   </ul>
               </div>
             </div>

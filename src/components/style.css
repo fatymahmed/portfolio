@@ -323,44 +323,6 @@ nav div ul li, .name{
     }
 }
 
-
-/*************BLOG******************/
-
-.Blogs{
-  text-align: center;
-  margin-top: 50px;
-}
-
-.blog{
-  margin-top: 10px;
-}
-
-.Blogs h1{
-  margin-bottom: 1em; 
-}
-
-.blog a{
-  color: black;
-  max-width: 400px;
-}
-
-.blog a:hover{
-  text-decoration: none;
-  color: #E31B6D;
-}
-
-.blog a p{
-  font-weight: lighter;
-}
-.article-img{
-  width: 320px;
-  height: 220px;
-}
-
-.blog h5{
-  margin-top: 10px;
-}
-
 /*************CONTACT**********/
 .Contact{
   height: 100vh;

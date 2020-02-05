@@ -62,17 +62,6 @@ function Navbar(){
 									About
 							</Link>
 						</li>
-						{/* <li className="nav-item">
-							<Link
-								activeClass="active"
-								to="blog"
-								spy={true}
-								smooth={true}
-								offset={-70}
-								duration= {500}>
-									Blog
-							</Link>
-						</li> */}
 						<li className="nav-item">
 							<Link
 								activeClass="active"

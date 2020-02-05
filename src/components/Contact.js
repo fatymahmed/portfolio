@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import * as emailjs from 'emailjs-com'
-import { Button, Form, FormGroup, Label, Input } from 'reactstrap'
+import { Button, Form, FormGroup, Input } from 'reactstrap'
 
 class Contact extends Component {
   state = {
@@ -78,17 +78,17 @@ class Contact extends Component {
           </Form>
           <hr/>
           <div className="icons">
-          <a href="https://www.linkedin.com/in/fatima-ahmed-46b01298">
+          <a href="https://www.linkedin.com/in/fatima-ahmed-46b01298" target="_blank" rel="noopener noreferrer">
             <div className="social-icon" >
             <i className="fab fa-linkedin-in"></i>
             </div>
           </a>
-          <a href="https://twitter.com/fatymahmed">
+          <a href="https://twitter.com/fatymahmed" target="_blank" rel="noopener noreferrer">
             <div className="social-icon" >
             <i className="fab fa-twitter"></i>
             </div>
           </a>
-          <a href="https://github.com/fatymahmed">
+          <a href="https://github.com/fatymahmed" target="_blank" rel="noopener noreferrer">
             <div className="social-icon">
             <i className="fab fa-github"></i>
             </div>
