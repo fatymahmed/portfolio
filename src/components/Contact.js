@@ -94,6 +94,7 @@ class Contact extends Component {
             </div>
           </a>
         </div>
+        <p className="text-center pt-3">fatima.ahmed.muhsin@gmail.com</p>
     </div>
     )
   }

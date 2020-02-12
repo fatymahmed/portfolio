@@ -27,6 +27,9 @@ function Home(){
             </a>
           </div>
         </div>
+        <a href="./resume.pdf" className="resume" target="_blank" download>
+           View My Resume
+        </a>  
     </div>
     </div>
   )

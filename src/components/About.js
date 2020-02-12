@@ -5,11 +5,11 @@ function About(){
     <div id="about" className="about container-fluid">
       <h1>ABOUT ME</h1>
       <div className="about-me">
-        <h2>My name is Fatima Ahmed</h2>
-        <p>I'm a full stack web developer who designs and builds applications</p>
-        <p>I'm currently working as a Technical Support Engineer at Microverse</p>
-        <p>I hold a bachelor's degree in computer engineering</p>
-        <p>When I'm not building applications,I mentor people and organize or facilitate tech meetups</p>
+        <p>My name is Fatima Ahmed, I'm currently living in Kenya. I'm a full stack web developer who designs and builds applications using Ruby on Rails, React, Redux, Html and CSS.
+        I'm currently working as a Technical Support Engineer at Microverse where I provide code reviews to other developers.
+        I hold a bachelor's degree in computer engineering.
+        When I'm not building applications, I mentor people and organize or facilitate tech meetups.
+        I enjoy spending my free time baking and travelling.</p>
         <div className="reach-me">
         <p className="email-reach">REACH OUT TO ME AT</p>
         <div>

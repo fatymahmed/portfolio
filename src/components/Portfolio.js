@@ -63,9 +63,9 @@ function Portfolio(){
                   <ul className="social-links">
                     <li className="project-name"><h1>Facebook</h1></li>
                     <br/>
-                    <li className='project-language'><h3>ruby/rails</h3></li>
+                    <li className='project-language'><h3>Ruby/Rails</h3></li>
                     <br/>
-                    <p>A rails app that allows it's users to make posts, send and accept friend requests.</p>
+                    <p>A social media clone designed to mimic some of Facebook's core features. Allows users to make posts, and send and accept friend requests.</p>
                     <li><a href="https://github.com/KaushikShivam/facebook_clone" target="_blank" rel="noopener noreferrer"><i className="fa fa-code" aria-hidden="true"></i></a></li>
                     <li><a href="https://sleepy-plateau-46117.herokuapp.com/" target="_blank" rel="noopener noreferrer"><i className="fa fa-desktop" aria-hidden="true"></i></a></li>
                   </ul>
@@ -79,7 +79,7 @@ function Portfolio(){
                     <br/>
                     <li className='project-language'><h3>HTML/CSS</h3></li>
                     <br/>
-                    <p>A website designed for an interior design company</p>
+                    <p>A website built for an interior design company.</p>
                     <li><a href="https://github.com/fatymahmed/Interior-design" target="_blank" rel="noopener noreferrer"><i className="fa fa-code" aria-hidden="true"></i></a></li>
                     <li><a href="https://fatymahmed.github.io/Interior-design/" target="_blank" rel="noopener noreferrer"><i className="fa fa-desktop" aria-hidden="true"></i></a></li>
                   </ul>
@@ -93,7 +93,7 @@ function Portfolio(){
                     <br/>
                     <li className='project-language'><h3>React & Ruby/Rails</h3></li>
                     <br/>
-                    <p>A react and rails app that allows it's users to choose which talks they'd like to add to their schedule</p>
+                    <p>An app built with React and Rails that allows users to select conferences from a list, and then add those conferences to their schedule.</p>
                     <li><a href="https://github.com/fatymahmed/conference-schedule-frontend/tree/schedule" target="_blank" rel="noopener noreferrer"><i className="fa fa-code" aria-hidden="true"></i></a></li>
                     <li><a href="https://conference-schedule-app.herokuapp.com/" target="_blank" rel="noopener noreferrer"><i className="fa fa-desktop" aria-hidden="true"></i></a></li>
                   </ul>
@@ -107,7 +107,7 @@ function Portfolio(){
                     <br/>
                     <li className='project-language'><h3>React & Redux & Ruby/Rails</h3></li>
                     <br/>
-                    <p>A bookstore app that allows users to create books and filter them according to the category</p>
+                    <p>A Bookstore CMS built with React and Redux that allows users to add books to a library and filter them according to the category.</p>
                     <li><a href="https://github.com/fatymahmed/bookstore-react/tree/api-service" target="_blank" rel="noopener noreferrer"><i className="fa fa-code" aria-hidden="true"></i></a></li>
                     <li><a href="https://bookstore-react-app.herokuapp.com" target="_blank" rel="noopener noreferrer"><i className="fa fa-desktop" aria-hidden="true"></i></a></li>
                   </ul>
@@ -133,9 +133,9 @@ function Portfolio(){
                   <ul className="social-links">
                     <li className="project-name"><h1>Weather</h1></li>
                     <br/>
-                    <li className='project-language'><h3>JavaScript & Html & CSS</h3></li>
+                    <li className='project-language'><h3>JavaScript & Html/CSS</h3></li>
                     <br/>
-                    <p>An app that allows users to get the weather of any city using a weather API </p>
+                    <p>An app that allows users to find the weather forecast of any city using a weather API </p>
                     <li><a href="https://github.com/fatymahmed/weather-app" target="_blank" rel="noopener noreferrer"><i className="fa fa-code" aria-hidden="true"></i></a></li>
                     <li><a href="https://fatymahmed.github.io/weather-app/dist/index.html" target="_blank" rel="noopener noreferrer"><i className="fa fa-desktop" aria-hidden="true"></i></a></li>
                   </ul>
