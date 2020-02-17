@@ -10,7 +10,7 @@ function Home(){
       <h2>Hello, I'm a <span className="desc-highlight">full-stack web developer</span></h2>
       <div className="contact-info">
           <div className="social-media icons">
-            <a href="https://www.linkedin.com/in/fatima-ahmed-46b01298" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.linkedin.com/in/fatimahmed" target="_blank" rel="noopener noreferrer">
               <div className="social-icon" >
               <i className="fab fa-linkedin-in"></i>
               </div>
