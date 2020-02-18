@@ -5,7 +5,7 @@ function About(){
     <div id="about" className="about container-fluid">
       <h1>ABOUT ME</h1>
       <div className="about-me">
-        <p>My name is Fatima Ahmed, I'm currently living in Kenya. I'm a full stack web developer who designs and builds applications using Ruby on Rails, React, Redux, Html and CSS.
+        <p>My name is Fatima Ahmed. I'm currently living in Kenya, and I'm a full stack web developer who designs and builds applications using Ruby on Rails, React, Redux, HTML and CSS.
         I'm currently working as a Technical Support Engineer at Microverse where I provide code reviews to other developers.
         I hold a bachelor's degree in computer engineering.
         When I'm not building applications, I mentor people and organize or facilitate tech meetups.

@@ -1,6 +1,8 @@
 import React from 'react';
 import './style.css';
 import image from '../main.jpeg';
+import resume from './resume.pdf';
+
 
 function Home(){
   return(
@@ -27,7 +29,7 @@ function Home(){
             </a>
           </div>
         </div>
-        <a href="./resume.pdf" className="resume" target="_blank" download>
+        <a href={resume} className="resume" target="_blank" download="resume.pdf">
            View My Resume
         </a>  
     </div>
