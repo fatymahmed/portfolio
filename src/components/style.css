@@ -348,7 +348,7 @@ line-height: 25px;
 
 /*************CONTACT**********/
 .Contact{
-height: 90vh;
+height: 550px;
 background-color: #1b242f;
 padding-top: 20px;
 padding-bottom: 20px;
@@ -404,6 +404,9 @@ height: 150px;
 @media screen and (max-width: 480px) {
 #myBtnContainer button{
   font-size: 0.7rem;
+}
+.Contact{
+  height: 600px;
 }
 }
 
