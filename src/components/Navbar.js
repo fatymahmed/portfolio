@@ -12,6 +12,14 @@ function Navbar(){
 		  x.className = "nav-items";
 		}
 	}
+
+	function closeMenu(e) {
+		e.preventDefault();
+		var x = document.getElementById("navbar-list");
+		if (x.className === "nav-items responsive") {
+		  x.className = "nav-items";
+		}
+	}
   return(
 		<nav id="navbar">
 			<button type="button" onClick={handleClick} className="icon"><i className="fa fa-bars"></i></button>
@@ -23,7 +31,8 @@ function Navbar(){
 						spy={true}
 						smooth={true}
 						offset={-70}
-						duration= {500}>
+						duration= {500} 
+						onClick={closeMenu}>
 							Fatima Ahmed
 					</Link>
 				</div>
@@ -36,7 +45,8 @@ function Navbar(){
 								spy={true}
 								smooth={true}
 								offset={-70}
-								duration= {500}>
+								duration= {500}
+								onClick={closeMenu}>
 									Home
 							</Link>
 						</li>
@@ -47,7 +57,8 @@ function Navbar(){
 								spy={true}
 								smooth={true}
 								offset={-70}
-								duration= {500}>
+								duration= {500}
+								onClick={closeMenu}>
 									Portfolio
 							</Link>
 						</li>
@@ -58,7 +69,8 @@ function Navbar(){
 								spy={true}
 								smooth={true}
 								offset={-70}
-								duration= {500}>
+								duration= {500}
+								onClick={closeMenu}>
 									About
 							</Link>
 						</li>
@@ -69,7 +81,8 @@ function Navbar(){
 								spy={true}
 								smooth={true}
 								offset={-70}
-								duration= {500}>
+								duration= {500}
+								onClick={closeMenu}>
 									Contact
 							</Link>
 						</li>
