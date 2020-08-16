@@ -210,7 +210,7 @@ function Portfolio() {
                 </li>
                 <li>
                   <a
-                    href='https://bookstore-react-app.herokuapp.com'
+                    href='https://cranky-lichterman-60438c.netlify.app/'
                     target='_blank'
                     rel='noopener noreferrer'
                   >
